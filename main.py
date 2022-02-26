@@ -66,8 +66,8 @@ buttons = [
 	Button(190, button_y, 50, 50, BLUE),
 	Button(250, button_y, 50, 50, YELLOW),
 	Button(310, button_y, 50, 50, WHITE),
-	Button(370, button_y, 50, 50, GREY, "Erase", BLACK),
-	Button(430, button_y, 50, 50, GREY, "Clear", BLACK),
+	Button(370, button_y, 50, 50, GREY, "Kumi", BLACK),
+	Button(430, button_y, 50, 50, GREY, "Uusi", BLACK),
 ]
 
 while run:
@@ -87,11 +87,8 @@ while run:
 					if not button.clicked(pos):
 						continue
 					drawing_color = button.color
-					if button.text == "Clear":	# cleaning paper
+					if button.text == "Uusi":	# cleaning paper
 						grid = init_grid(ROWS, COLS, BG_COLOR)
 						drawing_color = BLACK
-
-
 	draw(WIN, grid, buttons)
-
 pygame.quit()
