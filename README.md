@@ -12,7 +12,7 @@ Drawing-App v.0.1:
 
 The finished product have a .exe file what I won't upload here but to make a new one just ```pip install pyinstaller```.
 
-In the file have a settings option whre can customize the FPS, Screen-size etc.
+In the file have a settings option where can customize the FPS, Screen-size etc.
 
 This was a great opportunity to learn more about Python and it's powerful methods.
 
